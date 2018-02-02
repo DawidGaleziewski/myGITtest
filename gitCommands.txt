@@ -10,3 +10,24 @@ $ git push  //push to remote repo
 $ git pull // Pull latest from remote repo
 $ git clone // Clone repo into a new directory
 -->
+git --version // check version
+git touch // to create new file
+
+//adding information to repository
+git config --global user.name 'name'
+git config --global user.email 'email'
+
+git rm --cached index.html // untrack
+git add *.html //add any html file
+git add . // add EVERYTHING
+
+//commiting files
+    // you can edit comment to commit now
+git commit //PRESS I TO START TYPING
+        // this will allow you to use:
+:wq - confirm commit
+
+//Better way of commiting with comment is
+git commit -m 'Changed something'
+
+touch .gitignore // create a file that you can edit and add all files you want to be ignored
