@@ -31,12 +31,16 @@ git commit //PRESS I TO START TYPING
 git commit -m 'Changed something'
 
 touch .gitignore // create a file that you can edit and add all files you want to be ignored
-<<<<<<< HEAD
-Adding whole directories for example /git ignore
-=======
 Adding whole directories for example /git ignore
 
-//Branching
-git branch Mybranch // creates new branch
-git checkout Mybranch // moves you to branch
->>>>>>> login
+//When we work in branch and we will add and commit changes they will be GONE!
+
+
+
+/// After that we need to link our repo online
+1. go to github
+2. Create new repository
+3.on bash- git remote (to check if we have any repositories)
+4. Copy and paste link 'git remote add origin https://github.com/DawidGaleziewski/myGITtest.git'
+5. git push -u origin master - to push to repository
+6. touch README.md to help understand the code
