@@ -31,4 +31,12 @@ git commit //PRESS I TO START TYPING
 git commit -m 'Changed something'
 
 touch .gitignore // create a file that you can edit and add all files you want to be ignored
+<<<<<<< HEAD
 Adding whole directories for example /git ignore
+=======
+Adding whole directories for example /git ignore
+
+//Branching
+git branch Mybranch // creates new branch
+git checkout Mybranch // moves you to branch
+>>>>>>> login
