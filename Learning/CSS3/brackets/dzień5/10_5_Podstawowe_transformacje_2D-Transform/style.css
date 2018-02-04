@@ -1,0 +1,26 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+}
+
+p {
+	line-height: 1.5;
+}
+
+article {
+	padding: 20px;
+}
+
+/*transform, właściwość pozwalająca obracać i zmieniać kształt obiektów*/
+.box {
+	width: 300px;
+	height: 160px;
+	background-color: #0BC9CD;
+    
+    /*transform przyjmuje funkcję jako wartości
+        translateX(przesunięcie na osi X)
+        translateY(przesunięcie na osi Y)
+        rotate(N deg) obracanie o N stopni 
+        scale(x,y) skalowanie w poziomie i pionie;*/
+    transform: translateX(120px) translateY(160px) rotate(40deg) scale(1.4,.3);
+}

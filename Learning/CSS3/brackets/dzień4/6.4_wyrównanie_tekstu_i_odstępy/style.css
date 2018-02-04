@@ -1,0 +1,28 @@
+html {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+}
+
+h1, h2 {
+	font-family: "Arial Black", sans-serif;
+}
+
+p {
+	font-size: 1.4rem;
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 4rem;
+    /*odstępny między literami w poziomie
+        najczęściej używa się jednostek względnych jak rem*/
+    letter-spacing: 0.25rem;
+    /*odstępy między słowami*/
+    word-spacing: 0.3rem;
+}
+
+h2 {
+	font-size: 2.4rem;
+    /*pozwala pozycjonować w poziomie*/
+    text-align: center;
+}

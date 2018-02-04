@@ -1,0 +1,21 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+}
+
+nav {
+	font-size: 1.4em;
+	padding: 20px;
+    color: #ffffff;
+    
+    /*PONIEWAŻ  background-image nadpisał by wartość background, zapisujemy wszystko w jednej lini odzielając funkcję obrazka i funkcję gradientu przecinkiem*/
+	background: url('tlo.png') 50% 50% no-repeat, linear-gradient(to bottom, #482639, #A54657);/*linnear-gradient czyli gradient liniowy*/
+    
+    /*grdient jest funkcją którą wstawiamy w image */
+        /*właściwości funkcji
+            kierunek np. to bottom
+    z jakiego koloru?
+    do jakiego koloru?*/
+    
+
+}

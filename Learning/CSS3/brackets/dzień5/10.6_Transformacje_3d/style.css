@@ -1,0 +1,19 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+}
+
+p {
+	line-height: 1.5;
+}
+
+article {
+	padding: 20px;
+}
+
+img {
+    /*do pracy z 3d niezbędna jest właściwość perspective
+    aktywowany zostaje tryb 3d
+    200px jest wartością perspektywy, odległością obserwatora od monitora, im mniejsza wartość tym bliżej znajdzie się obserwujący*/
+    transform: perspective(500px) rotateY(30deg) rotateX(40deg) translateX(200px) translateY(150px);
+}

@@ -1,0 +1,33 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+	background-color: #fcfaed;
+}
+
+section {
+    /*właściwość flexbox
+        Ustawi ona wszystkie elementy, znadujące się w elemencie posiadającym tą właściwość, obok siebie
+    */
+    display: flex;
+}
+
+article {
+	background-color: #f78668;
+    /*w selektorze odnoszącym się do pojedyńczego elementu w flexboxie możemy ustawić właściwość flex: 1; znaczy to że wszystkie elementy będą miały ten sam priorytet tym samym, będą miały tą samą szerokość*/
+    flex: 1;
+}
+
+/*nth-of-type pozwala zmodyfikować selektor by wpływał jedynie na któryś element podrzędny z koleji*/
+article:nth-of-type(1) {
+    /*2 oznacza że temu artykułowi przypsana zostanie 2x większa szerokość*/
+    flex: 2;
+}
+
+nav {
+	background-color: #3e2f5b;
+	color: #fcfaed;
+	padding: 20px 0;
+	font-size: 1.2em;
+}
+
+

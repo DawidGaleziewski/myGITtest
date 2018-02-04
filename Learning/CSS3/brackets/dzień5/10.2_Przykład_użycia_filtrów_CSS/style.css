@@ -1,0 +1,24 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+}
+
+p {
+	line-height: 1.5;
+}
+
+article {
+	padding: 20px;
+}
+
+img {
+    /*jest około kilka efektów do dodania które działają jak funkcję*/
+        /*blur(n); gdzie wartością funkcji jest promień rozmycia w pixelach
+        invert(n); gdzie n jest % konwersji na negatyw
+        saturate(n); gdzie n jest % nasycenia zdjęcia
+        contrast(n); gdzie n jest % kontrastu
+    */
+    filter: saturate(15%) contrast(200%);
+}
+
+/*filtry są nowym dodatkiem więc mogąbyć nie wspierane*/

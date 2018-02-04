@@ -1,0 +1,21 @@
+
+body {
+	background-color: #1dd3b0;
+	font-size: 18px;
+}
+
+article {
+	background-color: #086375;
+	color: #FFFFFF;
+	margin: 30px;
+	padding: 20px 30px;
+    /*700px -szerokość na sztywno ma wady, część strony zostanie ucięta */
+    /*50%- lepiej się dopasuje*/
+    width: 50%; 
+    
+    /*height: 200px;- gdy wysokość jest ustawiona na sztywno, po zmiejszeniu okna przeglądarki treść może ona zacząć wypływać*/
+    /*min-height- lepsza właściwość- minimalna wysokość ma być 200 ale jeśli musi być większa to nie ma sprawy- rozwiązuje to problem pływającego tekstu*/
+    min-height: 200px;
+    
+    
+}

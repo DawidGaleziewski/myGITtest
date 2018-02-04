@@ -1,0 +1,25 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+}
+
+p {
+	line-height: 1.5;
+}
+
+article {
+	padding: 20px;
+}
+
+.box {
+     /*funkcja pozwalająca na obliczanie*/
+	width: calc(100% - 200px); /*100% czyli pełna szerokość elementa zewnętrznego - 200px, trzeba wstawić spację przed i po znaku - */
+	height: 160px;
+	background-color: #28587B;
+    /*rotateX jest funkcją, przyjmuje ona wartość z nawiasów*/
+    /*funkcja rgba*/
+   
+    
+ 
+}
+

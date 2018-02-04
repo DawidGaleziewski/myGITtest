@@ -1,0 +1,7 @@
+#main-header {
+	color: red;
+}
+
+.main-header {
+	color: blue !important;
+}

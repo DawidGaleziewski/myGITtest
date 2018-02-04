@@ -1,0 +1,45 @@
+html {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+}
+
+h1, h2 {
+	font-family: "Arial Black", sans-serif;
+}
+
+p, li {
+	font-size: 1.4rem;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 4rem;
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.5);   
+}
+
+h2 {
+	font-size: 2.4rem;
+	text-align: center;
+	font-style: italic;
+}
+
+/*reguła dla ul, zmiana znaczników*/
+ul {
+    /*właściwość zmieniająca no okrąd circle
+    */
+    list-style-type: square;
+}
+
+ol {
+    /*ta sama właściwość dla ol pozwala na zmianę z liczb na inne punkty np cyfry rzymskie albo litery
+    upper-latin/lower-latin litery
+    upper-roman- rzymskie
+    */
+        
+    list-style-type: upper-roman;
+}
+
+
+
+

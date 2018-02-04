@@ -1,0 +1,12 @@
+
+/* https://www.cssfontstack.com */
+    /*uwaga z fontami jeśli użyjemy mało znanego, to użytkownik który go nie posiada użyje fontu domyślnego */
+html {
+    /*jeśli Arial będzie nie dostępnu użyj domyslny font szeryfowy*/
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    /*jesi nazwa fontu składa się z kilku słów zamykamy ją w cudzysłowie*/
+    font-family: "Arial Black", sans-serif;
+}

@@ -1,0 +1,28 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+}
+
+table {
+	width: 50%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: #191919;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+th:first-child {
+	width: 15%;
+}
+
+tr:nth-child(odd) {
+	background-color: #DEDEDE;
+}
+
+tr:nth-child(even) {
+	background-color: #ACACAC;
+}

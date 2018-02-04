@@ -1,0 +1,7 @@
+[data-status] {
+	color: green;
+}
+
+[data-status="canceled"] {
+	color: red;
+}

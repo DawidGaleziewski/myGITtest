@@ -1,0 +1,11 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+}
+
+nav {
+	font-size: 1.4em;
+	padding: 20px;
+	background-color: #A54657;
+	background-image: url('tlo.png');
+}

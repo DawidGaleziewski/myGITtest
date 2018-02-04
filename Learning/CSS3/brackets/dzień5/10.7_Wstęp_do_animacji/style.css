@@ -1,0 +1,36 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+}
+
+p {
+	line-height: 1.5;
+}
+
+article {
+	padding: 20px;
+}
+
+.box {
+	width: 300px;
+	height: 160px;
+	background-color: #FC814A;
+    
+    /*przejsćie w animacji
+    Trzeba określić jakie wartości będziemy animować
+    All czyli wszystkie wartości będą animowane
+    1.5s- określamy jak długo będzie trwała animacja
+        easing jest zabiegiemktóry ma zmiejszyć szybkość na początku i zwiększyć pod koniec przechodzenia co jest przyjemniejsze dla oka
+    Ease-in-out czyli modyfikacja na wstępie i końcu animacji*/
+    
+    transition: all 1.5s ease-in-out;
+}
+
+.box:hover {
+    background-color: #564256;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+

@@ -1,0 +1,25 @@
+body {
+	background-color: #1dd3b0;
+	font-size: 18px;
+}
+
+article {
+	background-color: #086375;
+	color: #FFFFFF;
+	margin: 30px;
+	padding: 20px 30px;
+	width: 50%;
+	min-height: 200px;
+    
+    /*border jest właściwością dla obramowania
+        podajemy też jego parametry pokoleji:
+    1. szerokość najczęściej w px
+    2. styl - linia solid/dashed/dotted
+    3. kolor
+    */
+    border-bottom: 10px solid #e4572e;
+    border-top: 4px dashed #e4572e;
+    /*radius jest to promień zaokrąglenia rogu, można wybrać te wartości jedynie dla jednego rogu lub dla wszystkich*/
+        /*wartości: lewy górny, prawy górny, prawy dolny, lewy dolny*/
+    border-radius: 25px 25px 0 0;
+}

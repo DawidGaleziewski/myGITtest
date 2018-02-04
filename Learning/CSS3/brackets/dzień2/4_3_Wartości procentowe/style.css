@@ -1,0 +1,12 @@
+header {
+    /*z tym rozwiązaniem wiąże się problem!
+    jeśli okno przeglądarki zmiejszymy poniżej 550px szerokości ten obszar zostaniu ucięty*/
+    width: 550px;
+    background-color: cyan;
+}
+
+main {
+    /*ten obszar dopasuje się do okna przeglądarki i będzie zabierał jego 50% */
+    width: 50%;
+    background-color: red;
+}

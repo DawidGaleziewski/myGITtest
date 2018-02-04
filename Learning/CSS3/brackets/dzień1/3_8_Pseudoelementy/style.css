@@ -1,0 +1,21 @@
+h1 {
+    color: #777777;
+    font-size: 42px;
+}
+
+/*do pseudoelementów używamy :: */
+
+/*pseudoelement dla pierwszej litery */
+h1::first-letter {
+   font-size: 64px;
+    color: #000000;
+}
+
+/*pseudoelement wstawiony PO znaczniku*/
+
+a::after {
+    /*deklaracja content określa zawartość w css*/
+    content: " >>";
+    font-weight: bold;
+}
+

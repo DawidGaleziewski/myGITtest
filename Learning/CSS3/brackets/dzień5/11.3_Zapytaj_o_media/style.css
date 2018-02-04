@@ -1,0 +1,18 @@
+body {
+	font-size: 18px;
+	color: #1a394f;
+	background: #ebeff3;
+}
+
+p {
+	line-height: 1.5;
+}
+
+/*pytanie o media, w nawiasach znajduje się warunek po spełnieniu którego zostanie zastosowany specyficzny styl dla strony*/
+@media (min-width: 800px){
+    /*artykuły rozbiją się na dwie kolumny obok siebie*/
+    article {
+        float: left;
+        width: 47%;
+    } 
+}

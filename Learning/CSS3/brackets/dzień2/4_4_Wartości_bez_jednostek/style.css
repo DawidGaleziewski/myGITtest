@@ -1,0 +1,11 @@
+p {
+    font-size: 20px;
+    /*2 znaczy że wysokośc linie będzie stanowić 2x wysokośc tekstu */
+    line-height: 2;  
+}
+
+h1, h2 {
+    /*marginesy przyciągnięte do siebie */
+    /*przy 0 nie trzeba podawać jednostek */
+    margin: 0;
+}

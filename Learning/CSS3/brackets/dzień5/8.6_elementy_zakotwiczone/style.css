@@ -1,0 +1,31 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+	background-color: #fcfaed;
+}
+
+article {
+	background-color: #f78668;
+	width: 48%;
+}
+
+img {
+	position: absolute;
+	top: 35px;
+	left: 35px;
+}
+
+nav {
+	background-color: #3e2f5b;
+	color: #fcfaed;
+	padding: 20px 0;
+	font-size: 1.2em;
+    
+    /*elementy zakotwiczone tworzymy poprzez wartość fixed we właściwości position
+        */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+

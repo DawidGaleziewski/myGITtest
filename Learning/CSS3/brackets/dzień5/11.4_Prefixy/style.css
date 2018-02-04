@@ -1,0 +1,15 @@
+body {
+	font-size: 18px;
+	color: #1a394f;
+	background: #ebeff3;
+}
+
+p {
+	line-height: 1.5;
+}
+
+img {
+    /*webkit często jest używany jako przedrostek dla właściwoci słabo/czeście wspomaganych
+    Użycie właściwości wymagających webkit jest ryzykowne*/
+    -webkit-box-reflect: below;
+}

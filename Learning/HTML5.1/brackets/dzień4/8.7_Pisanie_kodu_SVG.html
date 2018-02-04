@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Obrazki</title>
+</head>
+<body>
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="">Start</a></li>
+				<li><a href="">Oferta</a></li>
+				<li><a href="">Portfolio</a></li>
+				<li><a href="">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main role="main">
+		<article>
+		<!--svg znacznik obszaru roboczego gdzie rysowane będą kształty-->
+			<svg height="140" width="140">
+                <!-- okrąg, za pomocą atrybutu r="70" definniujemy że jego promień to 70 px czyli łączna szerokość to 140-->
+                    <!--w przypadku tego znacznika trzeba dodać element zamykający / na końcu znacznika -->
+                <circle r="70" cx="70" cy="70" fill="#EF4836"/>
+                        <!--okrąg domyślnie zostanie umieszczony w prawym górnym rogu, dlatego trzeba go przesunąć -->
+                            <!--obiekt przesuwamy atrybutami cx="" i cy="" -->
+                                <!--obramowanie pola tworzymy za pomocą atrybutu stroke="#"- definiującego kolor i atrybutu stroke-width="x" gdzie x to szerokość obrysu -->
+                <circle r="50" cx="70" cy="70" fill="#8E44AD" stroke="#FFFFFF" stroke-width="3"/>
+			    
+			</svg>
+		</article>
+	</main>
+	<footer>To jest stopka strony</footer>
+
+</body>
+</html>

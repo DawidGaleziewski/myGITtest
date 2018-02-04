@@ -1,0 +1,12 @@
+/*używanie hierarchi za pomocą css, między elementem nad i pod żędnym znajduje się spacja */
+.top p {
+    font-size: 24px;
+    color: #777777;
+}
+
+/*akapity następujące po sobie będą formatowane */
+.intro p + p {
+    /*wcięcie */
+    text-indent: 60px;
+    color: #777777;
+}

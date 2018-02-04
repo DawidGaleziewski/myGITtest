@@ -1,0 +1,27 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+}
+
+p {
+	line-height: 1.5;
+}
+
+article {
+	padding: 20px;
+}
+
+img {
+	filter: saturate(15%) contrast(200%);
+}
+
+.box {
+	width: 500px;
+	height: 500px;
+    /*zamiast precyzować czy ma z góry na dół przebiegać można
+    sprecyzować kąt pod jakim ma przebiegać gradient np 45deg (deg czyli stopnie)*/
+    /*background: linear-gradient(45deg, red, rgba(0,0,0,0))*/
+    
+    /*radial-gradient, czyli okrągły gradient*/
+    background: radial-gradient(red, yellow, blue, green)
+}

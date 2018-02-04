@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Moja pierwsza strona</title>
+</head>
+<body>
+	<h1>Tworzenie formularzy w HTML</h1>
+
+<form action="" method="">
+
+		
+<label for="age">Wiek:</label><br>
+<!--atrybut type o wartości number, pozwoli na wprowadzenie tylko liczby -->
+
+    <!-- za pomoców atrybutów min="x" i max="x" można zdefiniować jakiej wartości liczba wrpwadzona nie może przekraczać -->
+<input type="number" id="age" min="1" max="99"><br>
+        
+        
+
+		<!-- atrybut type="search" dodaje pole szukania, dodaje przycisk reset do pola, co jest typowym polem wyszukiwarki -->
+		<label for="search">Szukaj:</label><br>
+		<input type="search" id="search"><br>
+		
+		
+		<!--atrybut type o wartości password- szyfruje wprowadzone dane -->
+		
+		<label for="password">Hasło</label><br>
+		<input type="password" id="password"><br>
+       
+       
+       
+
+        <label for="country">Kraj:</label><br>
+        
+        <!-- lista wyboru znajduje się pomiędzy znacznikami SELECT-->
+        
+        
+        <select size="2"> <!--atrybut SIZE definiuje ile pozycji na raz będzie widocznych na liście bez konieczności przewijania -->
+          
+           <!--Pojedyńcza opcja wyboru znajduje się w znacznikach OPTION -->
+           
+               <!--w atrybucie Value znajduje się wartość przekazywana dalej np do servera -->
+                   <!--To co znajduje się pomiędzy znacznikami option jest wartością widoczną dla zwykłego użytkownika na rozwijanej liście -->
+            <option 
+            value="poland">Polska</option>
+            <option value="uk">UK</option>
+            <option value="germany">Niemcy</option> 
+            
+        </select>
+
+       
+       
+
+ 
+<!--fieldset jest znacznikiem który zamyka część kodu w jednej ramce, tworzy domyślnie obramowanie dla jej elementów -->     
+    <fieldset>
+       
+<!-- pole radio to pole jednokrotnego wybory-->
+       <!--legend jest innym sposobem dodawania etykiety -->
+            <legend>Czy jesteś naszym klientem?</legend>
+        <input type="radio" value="yes" name="customer">Tak <br>
+        <!--tylko jeśli obydwa pola mają atrybut NAME o takiej samej wartości będzie można wybrać tylko jedną wartość -->
+        <input type="radio" value="no" name="customer">Nie<br>
+    </fieldset>
+       
+              
+
+        <label for="birthdate">Data urodzenia:</label><br>
+        
+        <!-- Pole do wprowadzania daty z kalendarzem!-->
+        <input type="date"><br>
+        
+        
+        <!-- czas do wprowadzenia -->
+        <input type="time"><br>
+
+     
+   <!--liste wielokrotnego wyboru tworzymy za pomocą atrybutu "checkbox" -->
+   <!--etykietę dodajemy za pomocą legend -->
+    <fieldset>
+       <legend>Jakimi tematami jesteś zainteresowany</legend> 
+       
+       <!--by przeglądarka wiedziała że poszczególne elementy należą do tej samej kategori trzeba im nadać taki sam atrybut name -->
+        
+        <input type="checkbox" value="grafika" name="topic">Grafika<br>
+        <input type="checkbox" value="office" name="topic">Office<br>
+        <input type="checkbox" value="Webdesign" name="topic">Webdesign<br>
+        <input type="checkbox" value="mobile" name="topic">Mobile<br>
+        
+    </fieldset>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+    
+                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    <label for="file">Prześlij plik</label><br>
+    <!-- atrybut type="file" pozwala na wybranie pliku-->
+    <input type="file" id="file" multiple="multiple"><br>
+        <!-- aby dać możliwość wyboru wielu plików trzeba utworzyć atrybut multiple o wartości "multiple"-->                              
+  
+        
+    <!--w przypadku gdy nie chcemy validacji domyślnej znaczników, bo robimy ją np w innym języku skryptowym jak JS, dodajemy do znacznika form atrybut novalidate, nadpisze on też atrybuty napisane w kodzie wenątrz znaczników -->
+	<form action="" method="" novalidate>
+	
+ <!--pola wymagane tworzymy poprzez dodanie atrybutu required -->
+   <input type="text" required>
+    <input type="submit">
+    
+      
+                     
+<!--atrybut autofocus wybiera pole od razu jako aktywne po odświeżeniu przeglądarki -->
+		<input type="text" id="name" autofocus><br>
+
+		<label for="email">Email:</label><br>
+		<input type="email" id="email"><br>
+
+		<label for="search">Szukaj: </label><br>
+		<input type="search" id="search"><br>
+
+		<label for="password">Hasło: </label><br>
+		<input type="password" id="password"><br>
+
+		<label for="age">Wiek:</label><br>
+		
+		
+<!--wartość domyślną można ustawić poprzez dodanie value="x" wtedy jeśli wartość nie zostanie zmieniona ta wartość zawsze zostanie wybrana -->
+    
+<!--jeśli chcemy by wartość była tylko do odczutu i nie była zmieniana dodajemy atrybut readonly -->
+		<input type="number" id="age" min="1" max="99" value="18" readonly><br>
+    
+                      
+</form>
+
+
+</body>
+</html>

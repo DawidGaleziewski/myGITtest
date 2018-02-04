@@ -1,0 +1,22 @@
+body {
+	font-size: 18px;
+	background-color: #fffbfa;
+}
+
+p {
+    /*akapity domyślnie są elementami blokowymi*/
+	background-color: #db5461;
+	color: #171738;
+	width: 300px;
+    
+    /*zmiana akapitów na elementy liniowo-blokowe
+    właściwość display pozwala na manipluację sposobem wyświetlania/układania się tych elementów w przeglądarce*/
+    display: inline-block;
+}
+
+a {
+    /*linki domyślnie są elementami liniowymi*/
+	font-size: 1.3em;
+    /*zmiana na elementy blokowe*/
+    display: block;
+}

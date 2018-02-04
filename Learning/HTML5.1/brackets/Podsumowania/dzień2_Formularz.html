@@ -1,0 +1,71 @@
+<h1>Tworzenie formularzy w HTML- szkielet</h1>
+	
+	<!--znacznik form rozpoczyna każdy formularz -->
+	
+	
+	<!-- atrybut action="x" definiuje miejsce docelowe dostarczenia danych-->
+	
+	<!-- atrybut method określa metodę przesyłania danych najczęściej jest to get lub post-->
+	<form action="" method="">
+	    
+	</form>
+	
+
+
+<h1>Tworzenie formularzy w HTML- pola i etykiety</h1>
+	
+
+	<form action="" method="">
+      
+      <!--znacznik input oznacza pole tekstowe do wprowadzania -->
+      <!-- atrybut type="text" określa że pole przyjmuje wartość tekst, określa typ wprowadzanych danych -->
+      <!-- Niezbędne przy przesyłaniu danych na serverze jest id po którym dane zostaną znalezione-->
+      
+     <!--Etykieta label opisuje pole -->
+          
+        <!--poprzez atrybut for="x" opisujemy do jakiego pola odnosi się etykieta, dzięki temu po kliknięciu na etykietę pole się aktywuje -->
+        
+    <label for="name">Imię:</label><br>
+	  <input type="text" id="name"> <br> 
+	  
+    <label for="email">Email:</label><br>
+	  <input type="email" id="email"> <br>
+	  
+	  <!--dla dłuższego pola tekstowego używa się znacznika textarea -->
+	  <label for="message">Wiadomość:</label><br>
+	  <textarea id="message"></textarea><br>
+	  
+	</form>
+	
+	
+	
+	
+	
+		<h1>Tworzenie formularzy w HTML- dodawanie przycisku</h1>
+	<form action="" method="">
+		<label for="name">Imię:</label><br>
+		<input type="text" id="name"><br>
+		<label for="email">Email:</label><br>
+		<input type="email" id="email"><br>
+		<label for="message">Wiadomość: </label><br>
+		<textarea id="message"></textarea><br>
+       
+       <!-- Przycisk dodajemy poprzez znacznik button -->
+       <!-- konieczne jest ustalenie typu przycisku poprzez atrybut type=""-->
+        <button type="submit">Wyślij wiadomość</button>
+        
+            <!--button może mieć różny typ np. submit dla potwierdzania lub reset dla zresetowania -->
+        <button type="reset">Zresetuj</button>
+        
+	</form>
+	
+
+
+
+
+
+
+
+
+
+

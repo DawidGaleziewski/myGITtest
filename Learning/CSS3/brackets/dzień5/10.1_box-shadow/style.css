@@ -1,0 +1,23 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+}
+
+p {
+	line-height: 1.5;
+}
+
+article {
+	width: 40%;
+	padding: 20px;
+	margin-left: 40px;
+	background-color: #f8d6bb;
+    
+    /*dodawanie cienia
+    1px- poziome przesunięcie cienia
+    1px- pionowe przesunięcia cienia
+    0- pozmycie cienia
+    rgba()- kolor
+    */
+    box-shadow: 0 0px 20px rgba(0,0,0,0.3)
+}

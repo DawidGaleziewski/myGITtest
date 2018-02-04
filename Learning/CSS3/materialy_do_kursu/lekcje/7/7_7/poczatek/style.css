@@ -1,0 +1,14 @@
+body {
+	font-size: 18px;
+	background-color: #fffbfa;
+}
+
+p {
+	background-color: #db5461;
+	color: #171738;
+	width: 300px;
+}
+
+a {
+	font-size: 1.3em;
+}

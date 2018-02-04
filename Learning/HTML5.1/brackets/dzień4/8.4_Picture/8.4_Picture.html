@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Obrazki</title>
+</head>
+<body>
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="">Start</a></li>
+				<li><a href="">Oferta</a></li>
+				<li><a href="">Portfolio</a></li>
+				<li><a href="">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main role="main">
+		<article>
+			<h1>Revit - Projektowanie parametryczne</h1>
+			<p>Opanuj projektowanie parametryczne w programie Autodesk Revit i zacznij wykorzystywać jego liczne zalety podczas codziennej pracy. Dowiedz się jak drastycznie zautomatyzować i przyspieszyć swoją pracę. Naucz się przygotowywać profesjonalne projekty, ich dokumentację i wizualizacje.</p>
+			<p>Nasz kurs kierujemy do architektów, którzy chcą zautomatyzować swoją pracę w Autodesk Revit, wykorzystując możliwości jakie daje projektowanie parametryczne w technologii BIM. Z uwagi na złożoność aspektu modelowania parametrycznego, do komfortowej pracy z kursem wymagana jest podstawowa znajomość programu Revit. Zdobędziesz ją z naszym szkoleniem Revit - projektowanie w BIM od podstaw.</p>
+			
+			<!--by ustawić elastyczne wybieranie obrazków w zależności od wielkości ekranu, użyjemy znacznika picture -->
+			<picture>
+                <!--znacznik source pozwala na zdefiniowanie poszczególnych warunków użycia obrazka -->
+                <!--atrybut media="(min-width:px)" określa przy jakiej szerokośći ekranu zostanie użyty taki obrazek -->
+                    <!-- dla picture używamy srcset -->
+			    <source media="(min-width:970px)" srcset="revit_duzy.jpg">
+			    <source media="(min-width:700px)" srcset="revit_sredni.jpg">
+			     <img src="revit_maly.jpg" alt="wizualizacja domu">
+			</picture>
+			<!--jeśli żaden z nich nie zostaje spełniony ładowany jest ostatni obrazek -->
+
+		</article>
+	</main>
+	<footer>To jest stopka strony</footer>
+
+</body>
+</html>

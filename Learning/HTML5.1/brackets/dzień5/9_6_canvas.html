@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Multimedia i obiekty</title>
+</head>
+<body>
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="">Start</a></li>
+				<li><a href="">Oferta</a></li>
+				<li><a href="">Portfolio</a></li>
+				<li><a href="">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main role="main">
+		<h1>Element CANVAS</h1>
+		
+		<!--Canvas- rysowanie dynamicznych animacji -->
+		    <!-- za pomoca width i height określamy nasz obszar roboczy-->
+		    <canvas id="canvas" width="400px" height="400px">
+                <p>Twoja przyglądarka nie obsługuje canvas </p>
+		    </canvas>
+	</main>
+	<footer>To jest stopka strony</footer>
+	
+   <!--do onsługiwania canvas niezbędny jest JS -->
+    <script>
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+        ctx.fillStyle='red';
+        ctx.fillRect(0,0,200,200);
+        ctx.fillStyle='green';
+        ctx.fillRect(0,120,100,230)
+    </script>
+</body>
+</html>

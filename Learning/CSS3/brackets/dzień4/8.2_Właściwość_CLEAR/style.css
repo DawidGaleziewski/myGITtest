@@ -1,0 +1,26 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+	background-color: #fcfaed;
+}
+
+article {
+	background-color: #f78668;
+	width: 48%;
+}
+
+.art1 {
+	float: left;
+}
+
+.art2 {
+	float: right;
+}
+
+h1 {
+    /*ponieważ poprzednie elementy miały wartość float element h1 zostanie przyciągnięty do nich i nie ustawi się pod tymi elementami jak powinien.
+    By tego uniknać używamy właściwości
+    Clear:both;
+    można też clear zastosować dla prawej lub lewej*/
+    clear: both;
+}

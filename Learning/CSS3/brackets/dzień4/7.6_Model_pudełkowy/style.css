@@ -1,0 +1,17 @@
+body {
+	background-color: #1dd3b0;
+	font-size: 18px;
+}
+
+article {
+    /* 500px +60 padding + 60px border = 620px */
+	background-color: #086375;
+	color: #FFFFFF;
+	margin: 30px;
+	padding: 20px 30px;
+	width: 500px;
+	border: 30px solid #E4572E;
+    /*box-sizing określa jak zachwouje się model pudełkowy względem zwiększania wielkości
+    teraz wielkość całego boxu będzie zawsze 500px, elementy zostają wciskane do środka a nie rozpychane za zewnątrz*/
+    box-sizing: border-box;
+}

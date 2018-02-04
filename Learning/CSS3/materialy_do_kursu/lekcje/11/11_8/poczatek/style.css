@@ -1,0 +1,19 @@
+body {
+	font-size: 18px;
+	color: #1a394f;
+	background: #ebeff3;
+}
+
+p {
+	line-height: 1.5;
+}
+
+img {
+	float: left;
+	margin-right: 20px;
+}
+
+header {
+	background-color: #7ee8fa;
+	padding: 20px;
+}

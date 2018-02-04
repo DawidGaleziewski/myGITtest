@@ -1,0 +1,25 @@
+body {
+	background-color: #1dd3b0;
+	font-size: 18px;
+}
+
+article {
+	background-color: #086375;
+	color: #FFFFFF;
+    
+    /*marginesy możemy dować z różnych stron*/
+
+    margin-top: 30px;
+            /*marginesy pomiędzy sąsiadującymi elementami się nie sumują tyko nakładają na siebie tu wygra magrines 60 na dole*/
+    
+    margin-bottom: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    /*właściwości zbiorcze 
+    pozwala skracać kod
+    top right bottom left
+    */
+    margin: 30px 40px 60px 40px; /*tu można by wyciąć ostatnie 40px bo powtarza się
+    dały by radę nawet zapisać margin: 20px; co by dało wszędzie 20 px marginesu.
+    */
+}

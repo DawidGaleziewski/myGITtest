@@ -1,0 +1,17 @@
+.red {
+    color: red;
+}
+
+/* Gdy dodajemy dwie klasy do jednego elementu robimy to odzielając je spacją */
+
+.black-background {
+    background-color: #000000;
+}
+
+/*w praktyce id raczej się nie stosuje
+
+id służy jedynie dla pojedyńczych elementów*/
+#main-header {
+    font-size: 70px;
+    color: green;
+}

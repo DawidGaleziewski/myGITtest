@@ -1,0 +1,20 @@
+a {
+    font-size: 22px;
+}
+
+a:hover {
+    color: red;
+    background-color: #dedede;
+}
+
+/*selctor focus dla zmieniania tabem*/
+a:focus {
+    color: red;
+    border: 1px solid red;
+}
+
+/*selektor pseudoklasy wybierający co drugi element */
+li:nth-of-type(2n) {
+    color: red;
+    background-color: #dedede;
+}

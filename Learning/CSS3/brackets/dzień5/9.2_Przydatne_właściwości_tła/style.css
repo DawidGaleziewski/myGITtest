@@ -1,0 +1,25 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+}
+
+nav {
+	font-size: 1.4em;
+	padding: 20px;
+	background-color: #A54657;
+    /*tło domyslnie będzie powtarzane*/
+	background-image: url('tlo.png');
+    
+    /*repeat dla bacground pozwala kontrolować jak powtarzany będzie obrazek wklejony jako tło*/
+    background-repeat: no-repeat;
+    /*repeat-x - czyli powtarzanie tylkow osix*/
+    /*no-repeat - brak powtarzania*/
+    
+    /*pozycję obrazka w tle określamy poprzez background-position*/
+    background-position: 50% 50%;
+    
+    /*by uprościć kod można zapisać to prościej
+    bacground: [adres obrazka] [pozycja] [powtarzanie] [kolor]*/
+    background: url('tlo.png') 50% 50% no-repeat #A54657;
+    
+}

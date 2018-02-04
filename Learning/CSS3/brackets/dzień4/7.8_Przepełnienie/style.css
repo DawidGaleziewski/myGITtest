@@ -1,0 +1,25 @@
+body {
+	font-size: 18px;
+	background-color: #fffbfa;
+}
+
+p {
+	background-color: #db5461;
+	color: #171738;
+	width: 300px;
+	display: inline-block;
+    /*przepełnienie może wystąpic np gdy przy ustalonej wysokości i szerokości treść przepełnia element i wtedy zaczyna poza niego wychodzić*/
+    height: 160px;
+    
+    /*rozwiązanie dla przepełnienia
+    overflow: scroll; - dodanie paska przewijania przy przepełnieniu
+    overflow: hidden;- ukryj nadmiar
+    overflow: visible;- to jest domyślna wartość
+    */
+    overflow: visible;
+}
+
+a {
+	font-size: 1.3em;
+	display: block;
+}

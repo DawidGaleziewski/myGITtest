@@ -1,0 +1,15 @@
+/*rozmiar nadrzędny*/
+
+body {
+    font-size: 10px;
+}
+
+/*rozmiar 1.5 x bazowy */
+.first {
+    font-size: 1.5em;
+}
+
+/* trzy razy większy od rozmiaru bazowego */
+.second {
+    font-size: 3em;
+}

@@ -1,0 +1,59 @@
+<input>
+<!-- atrybuty -->
+<!-- type="X" -->
+type="number"
+    min="x" max="x"
+    
+type="search"
+type="password"
+type="radio"
+type="date"
+type="time"
+type="checkbox"
+type="file"
+    multiple="multiple"
+    
+type="text"
+type="submit"
+type="email"
+
+<!--General atributes -->
+id="" <!--to link  -->
+value="" <!--zapisze domyśną wartość jeśli inna nie zostanie wybrana, dla opcji wybory prześle tą wartość do servera -->
+name="" <!--zlinkuje kilka radio opcji w jedną jeśli mają taką samą wartość -->
+autofocus <!--zaznaczy te pole po odświeżeniu przeglądarki -->
+readonly <!--wartość nie do zmienienia -->
+required <!-- wartość będzie wymagana do wypełnienia-->
+
+
+
+
+<!--konstrukcje mające związek z polami -->
+<form action="" method=""></form>  <!--otwiera formę do wypełnienia action oznacza dokąd zostanie wysłany formularz -->
+
+
+<label for="">Tu tekst etykiety</label> <!--etykieta dodawana do pola -->
+
+
+<!--Slect owtwiera rozwijaną opcję wyboru -->
+<!--size to ilość widocznych opcji na raz -->
+<select size="x">
+    <!-- option to pojedyńcze opcje, ich value to przekazywanie do servera, w środku znaczników znajduje się widoczna opcja -->
+    <option value="x">Opcja widoczna</option>
+    
+</select>
+
+
+<!--łączenie razem inputów takich jak radio, zamyka je w wizualnej ramce -->
+<fieldset>
+    <legend></legend>  <!--legend jest innym sposobem dodwania opisu jak label -->
+</fieldset>
+
+<!-- Pole wiadomości, do wpisywania większej ilości textu-->
+<textarea></textarea>
+
+
+<!--przycisk i jego dwa typy - potwierdzania i resetu -->
+<button></button>
+  type="submit"
+  type="reset"

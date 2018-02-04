@@ -1,0 +1,25 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+	background-color: #fcfaed;
+}
+
+article {
+	background-color: #f78668;
+	width: 48%;
+}
+
+nav {
+	background-color: #3e2f5b;
+	color: #fcfaed;
+	padding: 20px 0;
+	font-size: 1.2em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+    
+    /*większość elementów ma wartość 0, jeśli chcemy coś cofnąć w głąb strony możemy zacząć od -1*/
+    z-index: -1;
+}
+

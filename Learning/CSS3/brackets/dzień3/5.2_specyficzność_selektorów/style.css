@@ -1,0 +1,38 @@
+/*
+hierarchia:
+1. !important
+2. id
+3. Class
+4. selektor złożony np header h1
+5. Selektor bliższy elementowi
+6. Selektor nadżedny np body gdy mamy w środku h1
+
+*/
+
+
+/*jeśli dodamy specyfikację szczegółowo gdzie znajduje się selektor wtedy będzie on silniejszy i zostanie nadpisany */
+    /*zbyt specyficzny selekto jest częstym powodem problemów, spowoduje on często że elementy podrzedne zostaną nadpisane gdy tego nie chcemy*/
+header h1 {
+    color: red;
+}
+
+
+/*selektor ID jest jeszcze silniejszy od selektora klasy
+czasami jest aż zbyt mocny*/
+#main-header {
+    color: red;
+}
+
+
+
+/*Jeśli jest sprzeczność w wartościach selektorów wygra ten który jest na dole kodu*/
+    /*jest to waga selektorów*/
+h1 {
+    color: blue;
+}
+
+/*po dodaniu klassy możemy jej używać jako selektora zamiast np h1
+/*selektor klasy jest silniejszy od selektora złożonego*/
+.main-header {
+    color: blue !important; /*important nadpisuje wszystko*/
+}

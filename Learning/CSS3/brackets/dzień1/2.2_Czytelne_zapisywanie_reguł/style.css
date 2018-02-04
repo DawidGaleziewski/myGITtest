@@ -1,0 +1,8 @@
+/* jedna spacja po elemencie określanym */
+/* enter by otworzyć klamry */
+h1 {
+    /*spacja pomiędzy właściwością a jej wartością dla dodania czytelności  */
+    color: red; 
+    font-size: 58px;
+    text-align: center;
+}

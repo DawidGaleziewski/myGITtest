@@ -1,0 +1,14 @@
+h1 {
+	color: #777777;
+	font-size: 42px;
+}
+
+h1::first-letter {
+	font-size: 64px;
+	color: #000000;
+}
+
+a::after {
+	content: " >>";
+	font-weight: bold;
+}

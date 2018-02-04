@@ -1,0 +1,17 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+	background-color: #fcfaed;
+}
+
+article {
+	background-color: #f78668;
+}
+
+nav {
+	background-color: #3e2f5b;
+	color: #fcfaed;
+	padding: 20px 0;
+	font-size: 1.2em;
+}
+

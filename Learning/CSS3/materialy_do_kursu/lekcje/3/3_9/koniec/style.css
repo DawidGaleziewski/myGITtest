@@ -1,0 +1,9 @@
+.top p {
+	font-size: 24px;
+	color: #777777;
+}
+
+.intro p + p {
+	text-indent: 60px;
+	color: #777777;
+}

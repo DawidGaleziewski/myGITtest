@@ -1,0 +1,12 @@
+/*Niektóre wartości są dziedziczone inne nie */
+body {
+    /*color jest właściwością dziedziczną */
+    color: #777777;
+    /*padding nie jest właściwością dziedziczną*/
+    padding-top: 80px;
+}
+
+h2 {
+    /*wartość z body zostaje nadpisana wartością lokalną, jako że jest ona bliższa temu elementowi*/
+    color: #000000;
+}

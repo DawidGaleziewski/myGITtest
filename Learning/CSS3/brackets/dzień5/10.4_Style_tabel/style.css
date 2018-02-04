@@ -1,0 +1,39 @@
+body {
+	font-size: 18px;
+	color: #000f08;
+}
+
+table {
+    width: 50%;
+    /*table-layout: fixed; jest bardzo często stosowaną właściwością dla tabel
+    
+    */
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+th {
+    background-color: #191919;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+th:first-child {
+    /*dzięki table-layout:fixed; kolumna nagłówka a nie treść ustala wielkość, dzięki temu też dobrze zadziała wartość 15% i tabela ładnie się dopasuje*/
+    width:15%;
+}
+
+tr:nth-child(odd){ /*nth-child czyli selekotor wybierający któreś dziecko z koleji, odd oznacza nieparzyste*/
+    background-color: #DEDEDE;
+}
+
+tr:nth-child(even){/*even czyli wiersze parzyste*/
+    background-color: #ACACAC;
+}
+/*ta reguła obramuje wszystkie komurki
+mało stosowana pokazuje jednak dlaczego używamy właściwości
+border-collapse: collapse; - odstępy między komurkami z defaultu*/
+
+/* td {
+    border: 1px solid #000000;
+} */
+

@@ -1,0 +1,9 @@
+/*dla selektorów które są atrybutami używamy nawiasów kwadratowych [] */
+[data-status] {
+    color: green;
+}
+
+/*tak samo da radę użyć atrybutu ze specyficzną wartością jako selektora*/
+[data-status="canceled"] {
+    color: red;
+}

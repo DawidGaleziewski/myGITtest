@@ -1,0 +1,15 @@
+/* Bazowe style tekstu */
+h1 {
+	color: #777;
+	font-size: 42px;
+}
+
+/*wycinanie kodu za pomocą komentarza jest dobrą technikę by wykluczyć tymczasowo kod */
+/*
+p {
+	margin: 1.5em 0;
+	font-size: 20px;
+	line-height: 1.5;
+}
+*/
+

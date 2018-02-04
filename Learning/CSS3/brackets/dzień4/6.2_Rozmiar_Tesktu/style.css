@@ -1,0 +1,25 @@
+/*Jeśli nie określimy rozmiaru tekstu przeglądarka określi go za nas 
+Np dla paragrafów będzie to 16px*/ 
+html {
+	font-family: Arial, sans-serif;
+    /*ustalenie bazowego rozmiaru tekstu
+    Bazowy rozmiar 10 łatwiej będzie przeliczać używając bezwzględnych wartości*/
+    font-size: 10px;
+}
+
+h1, h2 {
+	font-family: "Arial Black", sans-serif;
+}
+
+p {
+    /*rem 1.4x wartości bazowej czyli 14px*/
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}

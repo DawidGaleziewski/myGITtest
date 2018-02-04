@@ -44,3 +44,9 @@ Adding whole directories for example /git ignore
 4. Copy and paste link 'git remote add origin https://github.com/DawidGaleziewski/myGITtest.git'
 5. git push -u origin master - to push to repository
 6. touch README.md to help understand the code
+
+
+// can add clone from link, this will pull all data to current location
+git clone https://github.com/DawidGaleziewski/myGITtest.git
+
+git pull //will pull all up to date content

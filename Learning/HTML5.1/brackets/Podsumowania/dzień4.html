@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Obrazki</title>
+</head>
+<body>
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="">Start</a></li>
+				<li><a href="">Oferta</a></li>
+				<li><a href="">Portfolio</a></li>
+				<li><a href="">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main role="main">
+
+<!--Proste wstawianie zdjęcia -->
+			
+			<!--by dodać obrazek używamy znacznika img -->
+			<!-- by podać ścieżkę do obrazka używamy atrybutu src="x"-->
+			<!--ALT w praktyce zawsze powienien się znajdować tekst alternatywny który się wyświetli jeśli obrazek nie zostanie znaleźiony -->
+			<img src="czym_jest_ux.jpggg" alt="Czym jest UX">
+			
+			
+			
+<!--wstawianie zdjęć dopasujących się do przeglądarki usera -->
+						<!--by ustawić elastyczne wybieranie obrazków w zależności od wielkości ekranu, użyjemy znacznika picture -->
+			<picture>
+                <!--znacznik source pozwala na zdefiniowanie poszczególnych warunków użycia obrazka -->
+                <!--atrybut media="(min-width:px)" określa przy jakiej szerokośći ekranu zostanie użyty taki obrazek -->
+                    <!-- dla picture używamy srcset -->
+			    <source media="(min-width:970px)" srcset="revit_duzy.jpg">
+			    <source media="(min-width:700px)" srcset="revit_sredni.jpg">
+			     <img src="revit_maly.jpg" alt="wizualizacja domu">
+			</picture>
+			<!--jeśli żaden z nich nie zostaje spełniony ładowany jest ostatni obrazek -->
+			
+			
+			
+<!-- obrazki SVG -->
+        <!-- samo podczepienie obrazka SVG jest takie samo jak IMG-- >
+		<!-- obrazek SVG jest saklowalny, jest to grafika wektorowa jesteśmy więc w stanie zmienić jego parametry-->
+		    <!--do zmiany szerokości i wysokości służą atrybuty width="" i height="" -->
+			<img src="napoj.svg" alt="Napój" width="200px" height="200px">
+			
+			
+<!--Pisanie kodu SVG -->			
+					<!--svg znacznik obszaru roboczego gdzie rysowane będą kształty-->
+			<svg height="140" width="140">
+                <!-- okrąg, za pomocą atrybutu r="70" definniujemy że jego promień to 70 px czyli łączna szerokość to 140-->
+                    <!--w przypadku tego znacznika trzeba dodać element zamykający / na końcu znacznika -->
+                <circle r="70" cx="70" cy="70" fill="#EF4836"/>
+                        <!--okrąg domyślnie zostanie umieszczony w prawym górnym rogu, dlatego trzeba go przesunąć -->
+                            <!--obiekt przesuwamy atrybutami cx="" i cy="" -->
+                                <!--obramowanie pola tworzymy za pomocą atrybutu stroke="#"- definiującego kolor i atrybutu stroke-width="x" gdzie x to szerokość obrysu -->
+                <circle r="50" cx="70" cy="70" fill="#8E44AD" stroke="#FFFFFF" stroke-width="3"/>
+			    
+			</svg>
+			
+			
+<!--dodawanie video -->
+			
+        <video controls width="460px"> <!--bez atrybutu controls nie mamy jak puścić filmu -->
+               <!--width pozwala nam zmienić szerokość filmu -->
+               
+               
+            <!--podobnie jak w przypadku picture potrzebny jest nam znaczik source by wskazać źródło-->
+                <!-- źródło określamy tak jak przy znaczniku img atrybutem src-->
+                    <!--konieczne jest jeszcze zdefiniowanie formatu wideo tu jest to np type="video/mp4" -->
+		    <source src="trailer.mp4" type="video/mp4">
+		    <source src="trailer.webm" type="video/webm">
+		</video>
+
+	</main>
+	<footer>To jest stopka strony</footer>
+	
+
+
+</body>
+</html>

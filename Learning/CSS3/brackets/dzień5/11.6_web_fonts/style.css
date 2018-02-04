@@ -1,0 +1,31 @@
+/*kod z dla fontu dobrze jest przekopiować do własnego pliku style.css
+Warto pamietać by zmienić ścieżki dla wszystkich fontów jeśli zmienilismy ich folder!*/
+@font-face {
+    font-family: 'pt_sans_captionbold';
+    src: url('fonts/PTC75F-webfont.eot');
+    src: url('fonts/PTC75F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PTC75F-webfont.woff2') format('woff2'),
+         url('fonts/PTC75F-webfont.woff') format('woff'),
+         url('fonts/PTC75F-webfont.ttf') format('truetype'),
+         url('fonts/PTC75F-webfont.svg#pt_sans_captionbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, p {
+    /*trzeba jeszcze upewnić się że zmienilismy font-family na podpięte dla wybranych selektorów*/
+    font-family: 'pt_sans_captionbold', Helvetica, sans-serif;
+}
+
+
+body {
+	font-size: 18px;
+	color: #1a394f;
+	background: #ebeff3;
+}
+
+p {
+	line-height: 1.5;
+}
+
